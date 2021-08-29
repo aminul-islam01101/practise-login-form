@@ -1,0 +1,113 @@
+/* Glabal Css Start */
+html{
+    font-size: 62.5%;
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-image: url(images/bg.jpg);
+    height: 80vh;
+    
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.container{
+    width: 35rem;
+    background-image: linear-gradient(45deg,orange,hsl(0, 97%, 58%));
+    height: 50rem;
+    margin: 15rem auto;
+    border-radius: 5px;
+}
+/* Global Css end */
+
+
+/*---- User avater start----- */
+.user-avatar{
+    width: 15rem;
+    height: 15rem;
+    margin: 0 auto;
+    display: block;
+    padding-top:1rem;
+}
+/*---- User avater end------ */
+
+
+/* ------Welcome note start-------- */
+.container h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 2.5rem;
+    margin: 0;
+}
+.container h2{
+    text-align: center;
+    font-weight: 700;
+    margin: 0;   
+}
+/*--------- welcome note end --------*/
+
+
+
+/* -----form start----- */
+.form-group{
+    margin: 1rem;
+}
+.form-group label{
+    display: block;
+    font-size: 1.5rem;
+}
+.login-form{
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+.form-controll{
+    width: 100%;
+    height: 3.5rem;
+    padding: 1rem;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    outline: none;
+    color: rgb(26, 147, 247);
+   
+}
+.form-controll:focus{
+    border:2px solid rgb(7, 6, 0);
+}
+/* -----form end --------*/
+
+
+/* --------Button-start -------*/
+.login-btn{
+    margin: 1rem;
+    padding: .7rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: none;
+    background:rgb(26, 147, 247);
+    letter-spacing: 1px;
+    transition: .3s ease-in-out  ;
+
+
+}
+.login-btn:hover{
+    background: rgb(12, 236, 236);
+    cursor: pointer;
+}
+ul li{
+    list-style: none;
+    font-size: 1.5rem;
+    margin: 1rem;
+    font-weight: 700;
+}
+ul li a{
+    color: rgb(26, 147, 247);
+    text-decoration: none;
+}
+ul li a:visited{
+    color: rgb(11, 245, 253);
+}
+/*-------button end-------- */
